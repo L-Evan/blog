@@ -34,12 +34,12 @@ jobs:
 
     steps:
       # 检出代码，包括submodules，保证主题文件正常
-      # - name: Checkout source
-      #   uses: actions/checkout@v2
-      #   with:
-      #     ref: master
-      #     submodules: true  # Fetch Hugo themes (true OR recursive)
-      #     fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+      - name: Checkout source
+        uses: actions/checkout@v2
+        with:
+          ref: master
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
       
       # 准备Hugo环境
       - name: Setup Hugo
