@@ -37,7 +37,7 @@ jobs:
       - name: Checkout source
         uses: actions/checkout@v2
         with:
-          ref: master
+          ref: main
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
       
