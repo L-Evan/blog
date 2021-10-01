@@ -104,7 +104,6 @@ defaultContentLanguage = 'zh-cn'          # Default language to use
   mathjax =  true    # 打开 mathjax
   comment =  true   # 关闭评论
   draft = false  # 是否是草稿
-  # reward =  true	 # 关闭打赏?
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
   customCSS = []            # if ['custom.css'], load '/static/css/custom.css' file
