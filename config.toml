@@ -2,7 +2,7 @@
 # If you want to see the full configuration, please check `full-config.toml` .
 # And see https://gohugo.io/getting-started/configuration/ .
 
-baseURL = "http://levanicn:1313/"
+baseURL = "https://levani.cn/"
 title = "Jane - A super concise theme for Hugo"
 enableRobotsTXT = true
 enableEmoji = true
