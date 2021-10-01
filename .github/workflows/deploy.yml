@@ -50,7 +50,7 @@ jobs:
 
       # Hugo构建静态站点，默认输出到public目录下    
       - name: Build
-        run: hugo --gc --verbose --minify
+        run: hugo --gc --config=./config.toml --verbose --minify
 
       # 将public目录下的所有内容同步到远程服务器的nginx站点路径，注意path参数的写法，'public'和'public/'是不同的
       - name: Deploy
