@@ -21,7 +21,7 @@ on:
       - '.gitignore'
       - '.gitmodules'
       - 'README.md'
-    branches: [ master ]
+    branches: [ main ]
   
   # 支持手动运行
   workflow_dispatch:
