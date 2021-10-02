@@ -89,14 +89,14 @@ defaultContentLanguage = 'zh-cn'          # Default language to use
     # 高亮行数组 1
     hl_Lines = ''
     anchorLineNos = false
-    lineAnchors = 'dd'
+    lineAnchors = ''
     lineNoStart = 1
     lineNos = true
     lineNumbersInTable = true
     # 是否开启style
-    noClasses = true 
+    noClasses = false 
     tabWidth = 4
-    style = 'solarized-dark256'
+    style = 'solarized-light'
 
 
 [params]
