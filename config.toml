@@ -88,7 +88,7 @@ defaultContentLanguage = 'zh-cn'          # Default language to use
   issueTerm = "title" # pathname
   label = "comment"
   theme = "github-light"
-
+  
 # 语法高亮
 [markup]
   [markup.highlight]
@@ -102,7 +102,7 @@ defaultContentLanguage = 'zh-cn'          # Default language to use
     lineNos = true
     lineNumbersInTable = true
     # 是否开启style
-    noClasses = false 
+    noClasses = true 
     tabWidth = 4
     style = 'solarized-light'
 
