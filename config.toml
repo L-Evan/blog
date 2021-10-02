@@ -81,6 +81,14 @@ defaultContentLanguage = 'zh-cn'          # Default language to use
   weight = 50
   url = "https://gohugo.io"
 
+## 配置 utteranc评论,教程参考 https://utteranc.es/
+[params.utteranc]
+  enable = true
+  repo = "L-Evan/blog" ##换成自己得
+  issueTerm = "title" # pathname
+  label = "comment"
+  theme = "github-light"
+
 # 语法高亮
 [markup]
   [markup.highlight]
