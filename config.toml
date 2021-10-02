@@ -81,6 +81,23 @@ defaultContentLanguage = 'zh-cn'          # Default language to use
   weight = 50
   url = "https://gohugo.io"
 
+# 语法高亮
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    # 高亮行数组 1
+    hl_Lines = ''
+    anchorLineNos = false
+    lineAnchors = 'dd'
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = true
+    # 是否开启style
+    noClasses = true 
+    tabWidth = 4
+    style = 'solarized-dark256'
+
 
 [params]
   since = "2018"            # Site creation time          # 站点建立时间
@@ -104,6 +121,7 @@ defaultContentLanguage = 'zh-cn'          # Default language to use
   mathjax =  true    # 打开 mathjax
   comment =  true   # 关闭评论
   draft = false  # 是否是草稿
+
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
   customCSS = []            # if ['custom.css'], load '/static/css/custom.css' file
