@@ -89,8 +89,13 @@ defaultContentLanguage = 'zh-cn'          # Default language to use
   label = "comment"
   theme = "github-light"
   
-# 语法高亮
 [markup]
+  # 开启html支持
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+      
+    # 下面语法高亮
   [markup.highlight]
     codeFences = true
     guessSyntax = true
@@ -104,7 +109,7 @@ defaultContentLanguage = 'zh-cn'          # Default language to use
     # 是否开启style
     noClasses = true 
     tabWidth = 4
-    style = 'solarized-light'
+    style = 'solarized-dark'
 
 
 [params]
