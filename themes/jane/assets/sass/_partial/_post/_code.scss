@@ -5,10 +5,13 @@
 // normal <code> style
 code {
   padding: 3px 7px;
-  // 需要取消
-  // background: $code-background;
+  background: $code-background;
   border-radius: 4px;
   color: $code-color;
+}
+// 代码块都none 侵入式的 不推荐
+td code {
+  background: none;
 }
 
 code, pre {
