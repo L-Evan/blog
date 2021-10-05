@@ -5,6 +5,8 @@ date: 2021-10-02T00:34:44+08:00    # 创建时间
 lastmod: 2021-10-02T00:34:44+08:00 # 最后修改时间
 tags: ['Linux']
 categories: ['Linux']  # 分类
+draft : false
+
 ---
 
 

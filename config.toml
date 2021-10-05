@@ -133,7 +133,7 @@ defaultContentLanguage = 'zh-cn'          # Default language to use
   
   mathjax =  true    # 打开 mathjax
   comment =  true   # 关闭评论
-  draft = false  # 是否是草稿
+  draft = true  # 是否是草稿
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
