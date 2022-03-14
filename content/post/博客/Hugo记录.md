@@ -17,7 +17,7 @@ categories: ['Blog']  # 分类
 ### 指令
 
 ~~~java
-// 注意需要进入hugo目录进行
+// 注意需要进入hugo目录进行，也就是hugo/base
 hugo new post/Blog/Hugo记录
 ~~~
 
@@ -25,7 +25,7 @@ hugo new post/Blog/Hugo记录
 
 1. git add . （进行文章添加缓存区）
 2. cz （进行github Conventional Commit规范提交）
-3. git poll (防止冲突)
+3. git pull (防止冲突)
 4. git push (推送到github除法github action)
 
 ### hugo目录结构
